@@ -1,36 +1,37 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "resume-ai-builder",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "lucide-react": "^0.344.0",
+    "@supabase/supabase-js": "^2.45.3",
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "html2pdf.js": "^0.10.1",
+    "lucide-react": "^0.441.0",
+    "mammoth": "^1.6.0",
+    "next": "^14.2.5",
+    "openai": "^4.56.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "postcss": "^8.4.47",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.22.3",
-    "zustand": "^4.5.2"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "@faker-js/faker": "^8.4.1",
+    "@types/node": "^20.14.12",
+    "@types/pdf-parse": "^1.1.5",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^9.9.1",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.11",
-    "globals": "^15.9.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
   }
 }
